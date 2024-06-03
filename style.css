@@ -1,0 +1,60 @@
+@font-face { font-family: MainFont; src: url("font/font1.ttf"); }
+
+body
+{
+  font-family: MainFont;  
+  background-color: #3C3C3C;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+*
+{
+  /*border: 1px solid #000;*/
+  user-select: none;
+}
+
+.main_label
+{
+  font-weight: lighter;
+  color: #EAB2C2;
+  font-size: 40px;
+  letter-spacing: 3px;
+
+  margin-bottom: 40px;
+  margin-top: -15px;
+
+  transition: letter-spacing 1s ease;
+}
+
+.main_label:hover
+{  
+  letter-spacing: 10px
+}
+
+
+.bg_text
+{
+  font-weight: normal;
+  color: #545454;
+  font-size: 20px;
+  padding-top: 0px;
+}
+
+.main_ph
+{
+  font-weight: normal;
+  color: #83A6BF;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+
+#intro_container
+{
+  
+  margin-top: 100px;
+  text-align: center;
+}
+
+
